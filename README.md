@@ -19,7 +19,7 @@ Snake Realms is the classic Snake game granting the player the ability to choose
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/nobody1355/SnakeRealms.git
+git clone https://github.com/nobody1355/snake-realms.git
 ```
 
 2. Open the project in an IDE like VSCode or IntelliJ IDEA.
