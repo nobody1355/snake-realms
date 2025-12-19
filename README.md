@@ -1,25 +1,25 @@
 # Snake Realms
 
-Snake Realms is a modern take on the classic Snake game. Players can navigate the snake to eat food, grow, and earn points while choosing from multiple themed realms including Jungle, Space, and Ocean. The game demonstrates clean architecture using JavaFX and several design patterns.
+Snake Realms is the classic Snake game granting the player the ability to choose between different realms. Players can navigate the snake to eat food, grow, earn points and power-ups while choosing from multiple themed realms including Jungle, Space, and Ocean. The game demonstrates clean architecture using JavaFX and several design patterns.
 
 ## Features
 - Multiple themed realms (Jungle, Space, Ocean)  
 - Score tracking with persistent high scores (works in Maven run)  
 - Dynamic snake powers using the Decorator pattern:
   - Speed Boost
-  - Invincibility
+  - Intangibility
   - Score Multiplier
 - Responsive JavaFX UI  
 - Demonstrates design patterns:
   - **Singleton**: `GameController`
   - **Abstract Factory**: `RealmFactory` and realm-specific factories
-  - **Observer**: Scoreboard updates automatically
+  - **Observer**: `Scoreboard` updates automatically
   - **Decorator**: Snake powers  
 
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/SnakeRealms.git
+git clone https://github.com/<nobody1355>/SnakeRealms.git
 ```
 
 2. Open the project in an IDE like VSCode or IntelliJ IDEA.
